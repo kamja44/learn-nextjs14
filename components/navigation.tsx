@@ -12,10 +12,10 @@ export default function Navigation() {
         <li>
           <Link href="/">Home</Link> {path === "/" ? "✔" : ""}
         </li>
-        <li>
+        {/* <li>
           <Link href="/about-us">About Us</Link>{" "}
           {path === "/about-us" ? "✔" : ""}
-        </li>
+        </li> */}
       </ul>
     </nav>
   );
